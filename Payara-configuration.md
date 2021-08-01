@@ -65,7 +65,7 @@ In *General Settings* fill following values and then click  *Next* button
 | Introspect              | unchecked                |
 
 ...
-![Payara console](https://github.com/tmsanchez/devnotes/blob/master/jdbc_config_2.png)
+![Payara console](https://github.com/tmsanchez/devnotes/blob/main/jdbc_config_2.png)
 ...
 
 In _Step 2 of 2_ complete following information in *General Settings*
