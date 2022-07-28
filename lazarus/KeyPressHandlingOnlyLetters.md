@@ -3,7 +3,11 @@
 
 To handle OnKeyPress Events for Unicode characters you will need to call **OnUTF8KeyPress** event instead of **OnKeyPress**
 
-You need to add **Character** to use _IsLetter_ function
+1. You need to add **Character** to use _IsLetter_ function 
+2. Add an _OnUTF8KeyPress_ to TEdit
+3. Convert _UTF8Key_ to String, so you can use _IsLetter_ function
+
+if needed you can add conditions for space (' '), enter (#13), backspace (#8) and delete key (#7)
 
 ```pascal
 uses
@@ -52,3 +56,5 @@ end.
 ```
 
 ![Only letters sample](https://github.com/tmsanchez/devnotes/blob/main/lazarus/only_letters_lazarus.png "Only letters sample")
+
+Source: https://wiki.lazarus.freepascal.org/LCL_Key_Handling
